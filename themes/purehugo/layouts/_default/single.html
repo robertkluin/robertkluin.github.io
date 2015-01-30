@@ -14,9 +14,8 @@
                         <a href="{{ .Permalink }}" class="post-title">{{ .Title }}</a>
 
                         <p class="post-meta">
-                            {{ with .Params.author }}
-                                By <strong class="post-author">{{ . }}</strong>
-                            {{ end }}
+                            By <strong class="post-author">{{ if isset .Params "author" }}{{ .Params.Author }}{{ else }}{{ .Site.Params.Author }}{{ end }}</strong>,
+                            about {{ .ReadingTime }} minute to read.
                             {{ if isset .Params "categories" }}
                                 under 
                                 {{ range .Params.categories }}<a class="post-category post-category-{{ . }}" href="/categories/{{ . | urlize }}">{{ . }}</a>{{ end }}
