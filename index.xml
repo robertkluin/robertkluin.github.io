@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Core Dumps of a Biocomputer</title>
-    <link>http://localhost:1313/</link>
+    <link>http://robertkluin.github.io/</link>
     <description>Recent content on Core Dumps of a Biocomputer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -10,14 +10,14 @@
     
     
     <lastBuildDate>Thu, 29 Jan 2015 21:05:47 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://robertkluin.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About The Biocomputer</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://robertkluin.github.io/about/</link>
       <pubDate>Thu, 29 Jan 2015 21:05:47 -0700</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://robertkluin.github.io/about/</guid>
       <description>
 
 &lt;h2 id=&#34;about-robert-the-biocomputer-that-core-dumps:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About Robert, the biocomputer that core dumps&lt;/h2&gt;
