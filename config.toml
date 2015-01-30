@@ -1,0 +1,12 @@
+baseurl = "http://robertkluin.github.io"
+title = "Core Dumps of a Biocomputer"
+languageCode = "en-us"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
+[params]
+  Subtitle = "Random crap from one biocomputer to another"
+  AuthorName = "Robert Kluin"
+  GitHubUser = "robertkluin"
+  SidebarRecentLimit = 5
