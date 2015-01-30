@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A layout example that shows off a blog page with a list of posts.">
+    
+      <meta name="description" content="Random crap from one biocomputer to another">
+    
 
     <title>Core Dumps of a Biocomputer &middot; Core Dumps of a Biocomputer</title>
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
@@ -18,25 +20,49 @@
         <link rel="stylesheet" href="/css/blog.css">
     
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://yandex.st/highlightjs/8.0/styles/default.min.css">
+    <script src="https://yandex.st/highlightjs/8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <style>
+      .nav-item a {
+        border: 0;
+      }
+      .nav-item a:hover {
+        border: 0;
+      }
+    </style>
 </head>
 <body>
+
 
 <div id="layout" class="pure-g">
     <div class="sidebar pure-u-1 pure-u-md-1-4">
     <div class="header">
         <hgroup>
-            <h1 class="brand-title"><a href="http://robertkluin.github.io">Core Dumps of a Biocomputer</a></h1>
-            <h2 class="brand-tagline"></h2>
+            <h1 class="brand-title"><a href="http://localhost:1313">Core Dumps of a Biocomputer</a></h1>
+            <h2 class="brand-tagline"> Random crap from one biocomputer to another </h2>
         </hgroup>
 
         <nav class="nav">
             <ul class="nav-list">
                 
+                <li class="nav-item">
+                  <a class="pure-button" href="http://twitter.com/robertkluin"><i class="fa fa-twitter"></i> @robertkluin</a>
+                </li>
+                
+                
+                <li class="nav-item">
+                  <a class="pure-button" href="http://github.com/robertkluin "><i class="fa fa-github-alt"></i> robertkluin</a>
+                </li>
                 
             </ul>
         </nav>
     </div>
 </div>
+
 
     <div class="content pure-u-1 pure-u-md-3-4">
         <div>
@@ -47,18 +73,17 @@
                 <section class="post">
                     <header class="post-header">
 
-                        <a href="http://robertkluin.github.io/about/" class="post-title">about</a>
+                      <a href="http://localhost:1313/about/" class="post-title">About The Biocomputer</a>
 
                         <p class="post-meta">
-                            
+                            By <strong class="post-author">Robert Kluin</strong>,
+                            about 1 minute to read.
                             
                         </p>
                     </header>
 
                     <div class="post-description">
-                        
-
-<h2 id="about-robert-the-biocomputer-that-core-dumps:6083a88ee3411b0d17ce02d738f69d47">About Robert, the biocomputer that core dumps</h2>
+                        <h2 id="about-robert-the-biocomputer-that-core-dumps:6083a88ee3411b0d17ce02d738f69d47">About Robert, the biocomputer that core dumps</h2>
 
 <p>I like solving problems.  I especially like to write code to solve problems.  I
 enjoy playing with different programming languages, but Python or Go are my
@@ -71,7 +96,9 @@ goto standbys.  Rust is making a play for a spot in my standby list.</p>
             <div class="footer">
     <div class="pure-menu pure-menu-horizontal pure-menu-open">
         <ul>
-            <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
+          <li>&copy;2015 Please don't jack my stuff, but feel free to link it.</li>
+          <li>&bull;</li>
+          <li>Powered by <a class="hugo" href="http://hugo.spf13.com/" target="_blank">hugo</a></li>
         </ul>
     </div>
 </div>
@@ -81,5 +108,8 @@ goto standbys.  Rust is making a play for a spot in my standby list.</p>
 </div>
 
 
-</body>
+<script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
 </html>
