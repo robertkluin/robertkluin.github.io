@@ -10,8 +10,8 @@ ready:
 publish: ready
 	git add -A public
 	git commit -m "Update public site content"
-	git push origin master
-	git subtree push --prefix=public git@github.com:robertkluin/robertkluin.github.io.git gh-pages
+	git push origin content
+	git subtree push --prefix=public git@github.com:robertkluin/robertkluin.github.io.git master
 
 drafts:
 	$(HUGO) --theme=$(THEME) --buildDrafts
