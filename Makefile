@@ -8,9 +8,8 @@ ready:
 	$(HUGO) --theme=$(THEME)
 
 publish: ready
-	git add -A public
-	git commit -m "Update public site content"
-	git push origin content
+	-git add -A public && git commit -m "Update public site content"
+	-git push origin content
 	git subtree push --prefix=public git@github.com:robertkluin/robertkluin.github.io.git master
 
 drafts:
