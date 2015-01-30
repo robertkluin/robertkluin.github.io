@@ -6,7 +6,8 @@ languageCode = "en-us"
   post = "/:year/:month/:title/"
 
 [params]
-  Subtitle = "Random crap from one biocomputer to another"
-  AuthorName = "Robert Kluin"
-  GitHubUser = "robertkluin"
+  Description = "Random crap from one biocomputer to another"
+  Author = "Robert Kluin"
+  github = "robertkluin"
+  twitter = "robertkluin"
   SidebarRecentLimit = 5
